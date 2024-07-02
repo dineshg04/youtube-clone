@@ -1,0 +1,126 @@
+.header{
+   display: flex;
+   flex-direction: row;
+   justify-content: start;
+   justify-content: space-between;
+   align-items: center;
+   height: 70px;
+   position: fixed;
+   width: 100%;
+   background-color: azure;
+   }
+  
+
+.left-sec{
+   
+
+    width: 150px;
+    flex-shrink: 0;
+    padding-right: 100px;
+}
+
+.logo{
+    
+    width: 100px;
+}
+
+.menu {
+    
+    width: 25px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+
+.mid-sec{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 400px;
+    padding-right: 100px;
+    padding-left: 60px;
+    
+}
+
+.search-bar{
+    width: 400px;
+    height: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    font-size: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 30px;
+    border-width: 1px;
+    border-style: solid;
+    border-color:  rgb(183, 183, 180);
+    border-bottom-right-radius: 0%;
+    border-top-right-radius: 0%;
+    
+}
+
+.scbutton{
+    height: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 30px;
+    border-style: solid;
+    border-left: 0px;
+    border-width: 1px;
+    border-color:  rgb(183, 183, 180);
+    border-bottom-left-radius: 0%;
+    border-top-left-radius: 0%;
+
+}
+
+
+.mic{
+    padding-left: 10px;
+    width: 25px;
+}
+
+
+.right-sec{
+   
+   display: flex; 
+   flex: 1;
+   flex-direction: row;
+   justify-content: start;
+   justify-content: space-around;
+
+   align-items: center;
+    
+    width: 300px;
+    flex-shrink: 0;
+    padding-right: 10px;
+    
+}
+.scbutton{
+    width: 25px;
+}
+
+
+
+.upload, .youtube-apps, .notification{
+    width: 25px;
+
+
+}
+
+
+
+.profile{
+    width: 25px;
+    border-radius: 250px;
+    
+    
+   
+
+}
+
